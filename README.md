@@ -27,6 +27,8 @@ You will need the following things properly installed on your computer.
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
+- *ember generate component component-name* (Generates a component and test file for it)
+- *ember generate component rental/image* (Generates a namespaced component and test file for it - namespaced components are organissed by folders and invoked like <Rental::Image>)
 
 ### Running Tests
 
