@@ -1,5 +1,15 @@
-<div class="image">
-  <img ...attributes>
-</div>
+{{#if this.isLarge}}     
+    <button type="button" class="image large" {{on "click" this.toggleSize}}>
+    <img ...attributes>
+    <small>View Smaller</small>
+    </button>
+{{else}}
+  <button type="button" class="image" {{on "click" this.toggleSize}}>
+    <img ...attributes>
+    <small>View Larger</small>
+  </button>
+{{/if}}
 
 {{!-- In general, it is a good idea to add ...attributes to the primary element in your component. This will allow for maximum flexibility, as the invoker may need to pass along classes for styling or ARIA attributes to improve accessibility. --}}
+
+{{!-- This is an example of conditionally rendering based on the state held in the component --}}

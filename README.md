@@ -1,7 +1,8 @@
 # super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A practice project built using ember.js; a simple site lidting rental properties.
+
+---
 
 ## Prerequisites
 
@@ -12,11 +13,15 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](https://cli.emberjs.com/release/)
 * [Google Chrome](https://google.com/chrome/)
 
+---
+
 ## Installation
 
 * `git clone <repository-url>` this repository
 * `cd super-rentals`
 * `npm install`
+
+---
 
 ## Running / Development
 
@@ -24,30 +29,56 @@ You will need the following things properly installed on your computer.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
+
+
 ### Code Generators
 
 Make use of the many generators for code, try `ember help generate` for more details
-- *ember generate component component-name* (Generates a component and test file for it)
-- *ember generate component rental/image* (Generates a namespaced component and test file for it - namespaced components are organissed by folders and invoked like <Rental::Image>)
+
+**Generates a component and test file for it:**
+```
+ember generate component component-name
+```
+
+**Generates a namespaced component and test file for it:**
+```
+ember generate component rental/image
+```
+(namespaced components are organised by folders and invoked like <Rental::Image>)
+
+**Associate JavaScript code to a component:**
+```
+ember generate component-class rental/image
+```
+
+---
 
 ### Running Tests
 
 * `ember test`
 * `ember test --server`
 
+---
+
 ### Linting
 
 * `npm run lint`
 * `npm run lint:fix`
+
+---
 
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
 
+---
+
 ### Deploying
 
 Specify what it takes to deploy your app.
+
+---
 
 ## Further Reading / Useful Links
 
