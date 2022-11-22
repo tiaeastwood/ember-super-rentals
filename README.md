@@ -54,3 +54,11 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+---
+
+## Notes
+
+**Testing:**
+- **Integration tests** are useful for testing an individual component in isolation eg checking that a component renders a certain thing / behaves in a certain way.
+- **Acceptance tests** are useful for general testing of the application eg testing that a navbar correctly navigates to different pages.
