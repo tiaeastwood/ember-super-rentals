@@ -19,8 +19,8 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
-    "test": "npm-run-all --print-name \"lint\" \"test:*\"",
-    "test:ember": "ember test"
+    "test:all": "npm-run-all --print-name \"lint\" \"test:*\"",
+    "test": "ember test --server"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
