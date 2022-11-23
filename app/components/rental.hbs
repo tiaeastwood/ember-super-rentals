@@ -4,7 +4,11 @@
     alt="A picture of Grand Old Mansion"
   />
   <div class="details">
-    <h3>Grand Old Mansion</h3>
+    <h3>
+      <LinkTo @route="rental" @model={{@rental}}>
+        {{@rental.title}}
+      </LinkTo>
+    </h3>
     <div class="detail owner">
       <span>Owner:</span> Veruca Salt
     </div>
