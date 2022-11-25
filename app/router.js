@@ -11,5 +11,3 @@ Router.map(function () {
   this.route('contact', { path: '/getting-in-touch' });
   this.route('rental', { path: '/rentals/:rental_id' });
 });
-
-// route = name of component (this will be the path is no optional custom path is given)
